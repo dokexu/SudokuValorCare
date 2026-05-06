@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://c5btnojp5asou"]
+
+[ext_resource type="Script" uid="uid://qm0d8kylfbfi" path="res://scripts/game.gd" id="1_wbfu4"]
+
+[node name="Game" type="Node2D" unique_id=1768607546]
+script = ExtResource("1_wbfu4")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1313378490]
+offset_left = 106.0
+offset_top = 51.0
+offset_right = 146.0
+offset_bottom = 91.0
+columns = 9
+
+[node name="SelectGrid" type="GridContainer" parent="." unique_id=447441025]
+offset_left = 58.0
+offset_top = 604.0
+offset_right = 666.0
+offset_bottom = 668.0
+columns = 9
+
+[node name="Button" type="Button" parent="SelectGrid" unique_id=1835350946]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "1"
+
+[node name="Button2" type="Button" parent="SelectGrid" unique_id=942598430]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "2"
+
+[node name="Button3" type="Button" parent="SelectGrid" unique_id=197785052]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "3"
+
+[node name="Button4" type="Button" parent="SelectGrid" unique_id=1147855357]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "4"
+
+[node name="Button5" type="Button" parent="SelectGrid" unique_id=1005729070]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "5"
+
+[node name="Button6" type="Button" parent="SelectGrid" unique_id=1021673958]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "6"
+
+[node name="Button7" type="Button" parent="SelectGrid" unique_id=993519350]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "7"
+
+[node name="Button8" type="Button" parent="SelectGrid" unique_id=84067958]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "8"
+
+[node name="Button9" type="Button" parent="SelectGrid" unique_id=295666147]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 34
+text = "9"
